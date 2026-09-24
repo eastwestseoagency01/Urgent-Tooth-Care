@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emergency Dentist 24/7 St. Louis | Urgent Tooth Care in St. Louis, MO</title>
+<meta name="description" content="Emergency Dentist 24/7 St. Louis offers same-day emergency dental care, tooth extractions, root canals and severe toothache relief in St. Louis, MO. Open 24/7. Call 866-489-5217.">
+<link rel="canonical" href="https://www.emergencydentalservice.com/">
+<meta property="og:title" content="Emergency Dentist 24/7 St. Louis">
+<meta property="og:description" content="24/7 urgent tooth care in St. Louis, MO. Same-day emergency dental service, extractions, root canals and severe toothache relief.">
+<meta property="og:type" content="business.business">
+<meta property="og:url" content="https://www.emergencydentalservice.com/">
+<meta property="og:image" content="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/eds-logo.webp?updated=1790021338">
+
+<style>
+:root{
+  --navy:#0b3556;
+  --navy-dark:#082742;
+  --blue:#1a73c1;
+  --teal:#12a5a0;
+  --grad: linear-gradient(135deg,#1a73c1,#12a5a0);
+  --bg:#f6f9fb;
+  --card:#ffffff;
+  --text:#28323c;
+  --muted:#5c6b78;
+  --border:#e3eaf0;
+  --radius:16px;
+  --shadow:0 10px 30px rgba(11,53,86,.09);
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+body{font-family:Calibri, "Segoe UI", Arial, sans-serif; font-weight:400; color:var(--text); background:var(--bg); line-height:1.7;}
+h1,h2,h3,h4{font-family:Calibri, "Segoe UI", Arial, sans-serif; font-weight:700; color:var(--navy); line-height:1.25;}
+p{font-weight:400;}
+a{color:inherit; text-decoration:none;}
+img{max-width:100%; display:block; border-radius:12px;}
+.container{max-width:1150px; margin:0 auto; padding:0 20px;}
+.section{padding:64px 0;}
+.section-alt{background:#eef4f8;}
+.btn{display:inline-flex; align-items:center; gap:8px; padding:14px 26px; border-radius:50px; font-weight:700; background:var(--grad); color:#fff; box-shadow:0 8px 20px rgba(26,115,193,.35); border:none; cursor:pointer;}
+.btn:hover{filter:brightness(1.05);}
+.btn-outline{background:none; border:2px solid #fff; color:#fff; box-shadow:none;}
+.badge{display:inline-block; padding:6px 14px; border-radius:50px; background:#eaf6f5; color:var(--teal); font-weight:700; font-size:.85rem; letter-spacing:.5px;}
+
+/* HEADER */
+header{position:sticky; top:0; z-index:100; background:#fff; box-shadow:0 2px 14px rgba(11,53,86,.08);}
+.topbar{display:flex; align-items:center; justify-content:space-between; padding:14px 20px; max-width:1150px; margin:0 auto; gap:16px; flex-wrap:wrap;}
+.phone-block{display:flex; align-items:center; gap:10px; font-weight:700; color:var(--navy);}
+.phone-block .icon-circle{width:40px; height:40px; border-radius:50%; background:var(--grad); display:flex; align-items:center; justify-content:center;}
+.phone-block .icon-circle svg{width:20px; height:20px; fill:#fff;}
+nav{display:flex; gap:26px; flex-wrap:wrap;}
+nav a{font-weight:700; color:var(--navy); padding:8px 4px; border-bottom:3px solid transparent;}
+nav a.active, nav a:hover{border-color:var(--teal); color:var(--teal);}
+.brand{display:flex; align-items:center; gap:10px;}
+.brand img{width:120px; height:44px; border-radius:10px; object-fit:cover;}
+.brand span{font-weight:700; color:var(--navy); font-size:1.02rem;}
+.book-btn{padding:12px 20px; font-size:.95rem;}
+@media (max-width:860px){ .topbar{flex-direction:column; align-items:flex-start;} nav{order:3; width:100%; justify-content:space-between;} }
+
+/* HERO */
+.hero{background:var(--grad); color:#fff; padding:70px 0;}
+.hero .container{display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center;}
+.hero h1{color:#fff; font-size:2.4rem; margin-bottom:16px;}
+.hero p{font-size:1.08rem; opacity:.95; margin-bottom:26px;}
+.hero-actions{display:flex; gap:14px; flex-wrap:wrap;}
+.hero img{border-radius:var(--radius); box-shadow:var(--shadow);}
+@media (max-width:860px){ .hero .container{grid-template-columns:1fr;} .hero h1{font-size:1.9rem;} }
+
+/* CARDS */
+.grid{display:grid; gap:26px;}
+.grid-3{grid-template-columns:repeat(3,1fr);}
+.grid-2{grid-template-columns:repeat(2,1fr);}
+@media (max-width:860px){ .grid-3, .grid-2{grid-template-columns:1fr;} }
+.card{background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:26px; border:1px solid var(--border);}
+.icon-badge{width:52px; height:52px; border-radius:14px; background:#eaf6f5; display:flex; align-items:center; justify-content:center; margin-bottom:14px;}
+.icon-badge svg{width:26px; height:26px; fill:var(--teal);}
+
+/* SERVICES */
+.service-card{background:var(--card); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow); border:1px solid var(--border);}
+.service-card img{border-radius:0; width:100%; height:190px; object-fit:cover;}
+.service-card .body{padding:22px;}
+.service-card h3{margin-bottom:8px; font-size:1.15rem;}
+.service-card p{color:var(--muted); margin-bottom:14px; font-size:.96rem;}
+.service-cta{font-weight:700; color:var(--teal);}
+
+/* TESTIMONIALS */
+.testi{background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:24px; border:1px solid var(--border);}
+.stars svg{width:16px; height:16px; fill:#f5a623;}
+.testi .stars{display:flex; gap:3px; margin-bottom:10px;}
+.testi h4{font-size:1rem; margin-top:12px;}
+.testi span{color:var(--muted); font-size:.88rem;}
+
+/* FAQ */
+details{background:#fff; border:1px solid var(--border); border-radius:12px; padding:16px 20px; margin-bottom:12px;}
+summary{font-weight:700; color:var(--navy); cursor:pointer;}
+details p{margin-top:10px; color:var(--muted);}
+
+/* CONTACT */
+.contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:36px;}
+@media (max-width:860px){ .contact-grid{grid-template-columns:1fr;} }
+.form-field{margin-bottom:16px;}
+.form-field label{display:block; font-weight:700; margin-bottom:6px; color:var(--navy);}
+.form-field input, .form-field textarea{width:100%; padding:12px 14px; border-radius:10px; border:1px solid var(--border); font-family:Calibri, sans-serif; font-size:1rem;}
+.contact-item{display:flex; gap:14px; margin-bottom:18px; align-items:flex-start;}
+.contact-item .icon-badge{flex-shrink:0; margin-bottom:0;}
+iframe{width:100%; height:320px; border:0; border-radius:var(--radius); margin-top:20px;}
+
+/* FOOTER */
+footer{background:var(--navy-dark); color:#cfe0ec; padding:50px 0 20px;}
+.footer-top{display:grid; grid-template-columns:1.3fr 1fr 1fr; gap:30px;}
+@media (max-width:860px){ .footer-top{grid-template-columns:1fr;} }
+.footer-brand{display:flex; align-items:center; gap:12px; margin-bottom:14px;}
+.footer-brand img{width:46px; height:46px; border-radius:10px;}
+footer h4{color:#fff; margin-bottom:14px;}
+footer a{color:#cfe0ec; display:block; margin-bottom:8px;}
+footer a:hover{color:var(--teal);}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.12); margin-top:30px; padding-top:20px; text-align:center; font-size:.88rem; color:#9db6c9;}
+.social-row{display:flex; gap:12px; margin-top:14px;}
+.social-row a{width:38px; height:38px; border-radius:50%; background:rgba(255,255,255,.08); display:flex; align-items:center; justify-content:center;}
+.social-row svg{width:18px; height:18px; fill:#cfe0ec;}
+
+/* FLOATING CALL */
+.float-call{position:fixed; bottom:24px; right:24px; z-index:200; width:60px; height:60px; border-radius:50%; background:var(--grad); display:flex; align-items:center; justify-content:center; box-shadow:0 10px 26px rgba(11,53,86,.35);}
+.float-call svg{width:26px; height:26px; fill:#fff;}
+
+.page{display:none;}
+.page.active{display:block;}
+.center-head{text-align:center; max-width:720px; margin:0 auto 40px;}
+.center-head p{color:var(--muted);}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="topbar">
+    <a href="tel:+18664895217" class="phone-block">
+      <span class="icon-circle"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"/></svg></span>
+      866-489-5217
+    </a>
+    <nav>
+      <a href="#home" class="nav-link" data-page="home">Home</a>
+      <a href="#about" class="nav-link" data-page="about">About</a>
+      <a href="#services" class="nav-link" data-page="services">Services</a>
+      <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:16px;">
+      <div class="brand">
+        <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/eds-logo.webp?updated=1790021338" alt="Emergency Dentist 24/7 St. Louis logo">
+        <span>Emergency Dentist 24/7 St. Louis</span>
+      </div>
+      <a href="#contact" class="btn book-btn">Book Appointment</a>
+    </div>
+  </div>
+</header>
+
+<!-- HOME -->
+<div id="home" class="page">
+  <section class="hero">
+    <div class="container">
+      <div>
+        <span class="badge" style="background:rgba(255,255,255,.15); color:#fff;">OPEN 24 HOURS A DAY</span>
+        <h1>Urgent Tooth Care, Any Hour of the Day or Night in St. Louis</h1>
+        <p>When a dental emergency strikes, you need an emergency dentist who answers, not a voicemail. Emergency Dentist 24/7 St. Louis connects patients across St. Louis, MO with same-day emergency dental care for severe toothaches, broken teeth, lost fillings and more.</p>
+        <div class="hero-actions">
+          <a href="tel:+18664895217" class="btn">Call 866-489-5217</a>
+          <a href="#contact" class="btn btn-outline">Book Appointment</a>
+        </div>
+      </div>
+      <img src="https://s.floomby.com/uploads/s/230926/re4Hvn58.jpg?download=1&name=Screenshot-23-09-2026%2013:18:18.jpg" alt="Emergency dentist waiting room St. Louis" loading="lazy">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="center-head">
+        <h2>St. Louis Emergency Dental Care, When You Need It Most</h2>
+        <p>Fast, judgment-free emergency dentistry for teeth pain emergency situations across the St. Louis area.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><path d="M12 2C7 2 4 6 4 10c0 4 2.5 6.5 3 9.5.2 1.3 1.3 2.5 2.7 2.5s2.3-1.1 2.3-2.4c0-1.6 1-1.6 1-1.6s1 0 1 1.6c0 1.3 1 2.4 2.3 2.4s2.5-1.2 2.7-2.5c.5-3 3-5.5 3-9.5 0-4-3-8-8-8-.5 0-1 .1-1 .1"/></svg></div>
+          <h3>24/7 Emergency Dentist</h3>
+          <p>Around-the-clock emergency dental service, including nights, weekends and holidays. A live agent is always available to help you find same-day care.</p>
+        </div>
+        <div class="card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C1 7.5 3 4 6.5 4c1.8 0 3.2 1 4 2.3C11.3 5 12.7 4 14.5 4 18 4 20 7.5 18.5 12c-2.5 4.5-6.5 9-6.5 9z"/></svg></div>
+          <h3>Compassionate Team</h3>
+          <p>Our network dentists specialize in urgent tooth care, from emergency tooth extraction to same-day root canal treatment, with calm, clear communication.</p>
+        </div>
+        <div class="card">
+          <div class="icon-badge"><svg viewBox="0 0 24 24"><path d="M4 4h16v14H5.2L4 19.6V4zM8 9h8M8 12h5"/></svg></div>
+          <h3>Same-Day Appointments</h3>
+          <p>Most patients calling with severe toothache relief needs are seen the same day, including a dentist open on Saturday for weekend emergencies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+  <div class="container">
+
+    <div class="about-content">
+
+      <div class="about-text">
+        <div class="center-head">
+          <h2>Why St. Louis Trusts Our Emergency Dental Service</h2>
+        </div>
+
+        <p>
+          A dental emergency rarely waits for regular business hours. A cracked molar at midnight, a knocked-out tooth during a weekend game, or a throbbing abscess on a holiday can turn into a genuine crisis if you cannot reach ER dentistry quickly. Emergency Dentist 24/7 St. Louis was built to close that gap. Our team at 1500 Park Ave in St. Louis, MO exists to make sure that no matter when the pain starts, a real person answers the phone and helps you get in front of a qualified EMG dentist as fast as possible.
+        </p>
+
+        <p>
+          We understand that emergency dental care is about more than fixing a tooth. It is about relieving pain, protecting your long-term oral health, and giving you peace of mind. Whether you are dealing with a severe toothache, a broken crown, a lost filling, or bleeding gums that will not stop, our coordinators listen carefully and route you to the right level of urgent tooth care, whether that means an emergency root canal, a same-day extraction, or a simple exam and prescription.
+        </p>
+
+        <p>
+          Our approach blends technology with a very human touch. Patients can call our line any hour of the day, describe their symptoms, and receive guidance on next steps while an appointment is arranged nearby. We accept cash and credit card payment, keep our doors open every single day of the year, and never turn away a patient in genuine pain. From emergency dentistry for adults to gentle care for children with a knocked-out baby tooth, our goal is simple: get you comfortable again as quickly and affordably as possible.
+        </p>
+
+        <p>
+          St. Louis residents searching for a 24hr dentist, a dentist open on Saturday, or same-day dentist appointment options consistently choose Emergency Dentist 24/7 St. Louis because we remove the guesswork from a stressful moment. You will not be left on hold, transferred repeatedly, or told to wait until Monday. Call 866-489-5217 right now, day or night, and let our team take the next step off your plate.
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="about-image">
+        <img 
+          src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=900&q=80"
+          alt="Emergency dental service in St. Louis"
+        >
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 45px;
+  }
+
+  .about-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .about-text p {
+    max-width: 900px;
+    margin: 0 auto 20px;
+    line-height: 1.8;
+  }
+
+  .about-image {
+    flex: 0 0 40%;
+    position: sticky;
+    top: 100px;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .about-text {
+      width: 100%;
+    }
+
+    .about-image {
+      width: 100%;
+      flex: none;
+      position: static;
+    }
+
+    .about-image img {
+      width: 100%;
+    }
+  }
+</style>
+
+  <section class="section">
+    <div class="container">
+      <div class="center-head">
+        <h2>Common Dental Emergencies We Handle</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card"><h3>Severe Toothache</h3><p>Persistent, throbbing tooth pain is one of the most common reasons patients search for urgent tooth care and same-day dentist appointments.</p></div>
+        <div class="card"><h3>Broken or Chipped Tooth</h3><p>A fractured tooth from an accident or bite injury needs prompt attention to prevent further damage or infection.</p></div>
+        <div class="card"><h3>Knocked-Out Tooth</h3><p>Time matters with a fully dislodged tooth. Fast emergency dental service greatly improves the odds of saving it.</p></div>
+        <div class="card"><h3>Lost Filling or Crown</h3><p>An exposed tooth can become painful quickly. We help you get it repaired before it worsens.</p></div>
+        <div class="card"><h3>Dental Abscess</h3><p>Swelling, fever, or a pimple-like bump on the gum can signal a serious infection requiring urgent dentistry.</p></div>
+        <div class="card"><h3>Bleeding or Injured Gums</h3><p>Ongoing oral bleeding after an injury is treated as a true dental emergency in our network.</p></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ABOUT -->
+<div id="about" class="page">
+  <section class="hero">
+    <div class="container" style="grid-template-columns:1fr;">
+      <div>
+        <span class="badge" style="background:rgba(255,255,255,.15); color:#fff;">ABOUT US</span>
+        <h1>Dedicated to Emergency Dentistry in St. Louis, MO</h1>
+        <p>Learn how Emergency Dentist 24/7 St. Louis became a trusted name in emergency dental care for the entire St. Louis community.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+  <div class="container">
+    
+    <div class="about-content">
+      
+      <div class="about-text">
+        <p>
+          Emergency Dentist 24/7 St. Louis was founded on a simple idea: dental pain does not follow business hours, so emergency dental service should not either. Located at 1500 Park Ave in St. Louis, MO 63104, our practice was created to give the St. Louis area a dependable resource for emergency dentistry that is available every day of the year, including nights, weekends and holidays. Too many people in real pain have faced busy signals, closed offices, or hospital emergency rooms that are not equipped to properly treat a dental issue. We set out to change that.
+        </p>
+
+        <p>
+          Our commitment to urgent tooth care started small, with a handful of dedicated dentists willing to take late-night calls. Over time, that commitment grew into a full emergency dental service built specifically for the realities of modern life. Cars break down, kids fall off bikes, molars crack on popcorn kernels, and root canals become necessary without warning. Our team of coordinators and partner dentists prepared for all of it, so that when you call, someone is ready to help immediately rather than asking you to wait until Monday morning.
+        </p>
+
+        <p>
+          What sets our emergency dental care apart is the balance between speed and quality. We never rush a diagnosis just to fill an appointment slot. Every patient who calls for same-day root canal treatment, emergency tooth extraction, or severe toothache relief is matched with a dentist experienced in ER dentistry and emergency dentist protocols, someone who can act quickly without cutting corners. Many of our patients tell us that the reassurance of speaking with a calm, knowledgeable voice at 2 a.m. made all the difference in how they handled their emergency.
+        </p>
+
+        <p>
+          We also believe access should not be complicated. That is why we keep our services simple: call our 24/7 line, describe the emergency, and get connected with same-day dentist appointment options nearby, including a dentist open on Saturday for weekend emergencies. We accept both cash and credit card payment, and our team will always be upfront about what to expect before you arrive. Whether you need EMG dentist-level urgent care or reassurance that your symptoms can wait for a regular visit, we are here to guide you honestly.
+        </p>
+
+        <p>
+          Today, Emergency Dentist 24/7 St. Louis continues to serve patients throughout St. Louis and the greater Missouri area, staying true to the mission that started it all: making sure nobody in dental pain has to wait. Whether it is 3 p.m. on a Tuesday or 3 a.m. on a holiday, our phones are answered, our network is ready, and urgent tooth care is always within reach.
+        </p>
+      </div>
+
+      <div class="about-image">
+        <img 
+          src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/dentures/getresults-denturepic.png?updated=1649692990260" 
+          alt="Emergency Dentist in St. Louis"
+        >
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 45px;
+  }
+
+  .about-text {
+    flex: 1;
+  }
+
+  .about-text p {
+    margin: 0 0 20px;
+    line-height: 1.8;
+  }
+
+  .about-image {
+    flex: 0 0 40%;
+    position: sticky;
+    top: 100px;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .about-image {
+      width: 100%;
+      position: static;
+      order: 2;
+    }
+
+    .about-text {
+      order: 1;
+    }
+  }
+</style>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="center-head"><h2>Frequently Asked Questions</h2></div>
+      <details>
+        <summary>Do you really offer emergency dental care 24 hours a day?</summary>
+        <p>Yes. Emergency Dentist 24/7 St. Louis operates around the clock, including nights, weekends and holidays, so you can reach a live agent any time a dental emergency happens.</p>
+      </details>
+      <details>
+        <summary>What counts as a dental emergency?</summary>
+        <p>Severe toothache, a knocked-out or broken tooth, uncontrolled bleeding, facial swelling, or a lost crown or filling that is causing pain all qualify as dental emergencies that need urgent tooth care.</p>
+      </details>
+      <details>
+        <summary>Can I get a same-day root canal or extraction?</summary>
+        <p>In most cases, yes. Same-day root canal and emergency tooth extraction appointments are available depending on the severity of your situation and dentist availability nearby.</p>
+      </details>
+      <details>
+        <summary>Is there a dentist open on Saturday and Sunday?</summary>
+        <p>Yes, our network includes a dentist open on Saturday and Sunday so weekend dental emergencies do not have to wait until Monday.</p>
+      </details>
+      <details>
+        <summary>What payment methods do you accept?</summary>
+        <p>We accept cash and credit card payment for emergency dental services.</p>
+      </details>
+    </div>
+  </section>
+</div>
+
+<!-- SERVICES -->
+<div id="services" class="page">
+  <section class="hero">
+    <div class="container" style="grid-template-columns:1fr;">
+      <div>
+        <span class="badge" style="background:rgba(255,255,255,.15); color:#fff;">OUR SERVICES</span>
+        <h1>Emergency Dental Services in St. Louis</h1>
+        <p>From same-day root canals to severe toothache relief, our network delivers complete emergency dentistry for every urgent situation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-3">
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic emergency dental service scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/dentist-profiles/eds-sg-blog-9-min.jpg?updated=1790021338" alt="Emergency dental service St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Emergency Dental Service</h3>
+            <p>Our core emergency dental service connects St. Louis patients with a nearby dentist fast, day or night, for any urgent oral health issue that cannot wait for a regular appointment.</p>
+            <a href="#contact" class="service-cta">Get Help Now &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic emergency dental care scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/edsblog-dentistexamwoman-cover.jpg?updated=1790021338" alt="Emergency dental care exam St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Emergency Dental Care</h3>
+            <p>Comprehensive emergency dental care covering exams, X-rays, and treatment planning so you understand exactly what is happening and what comes next.</p>
+            <a href="#contact" class="service-cta">Book Appointment &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic emergency dentistry scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/eds-sg-blog-25-12-08-same-day-dentures.webp?updated=1790021338" alt="Emergency dentistry St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Emergency Dentistry</h3>
+            <p>Full-scope emergency dentistry for trauma, infection, and sudden pain, delivered by dentists experienced in fast, accurate diagnosis under pressure.</p>
+            <a href="#contact" class="service-cta">Call 866-489-5217 &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic emergency dentist consultation scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/eds-sg-blog-25-12-08-dental-implants-benefits.webp?updated=1790021338" alt="Emergency dentist St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Emergency Dentist</h3>
+            <p>An experienced emergency dentist is matched to your specific symptoms, whether it is a cracked tooth, an abscess, or lingering pain after a procedure.</p>
+            <a href="#contact" class="service-cta">Find a Dentist &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic ER dentistry scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/eds-sg-blog-25-12-08-day-without-teeth.webp?updated=1790021338" alt="ER dentistry St. Louis" loading="lazy">
+          <div class="body">
+            <h3>ER Dentistry</h3>
+            <p>When a dental issue feels hospital-worthy, our ER dentistry pathway routes you to a dentist equipped to treat urgent oral trauma quickly and safely.</p>
+            <a href="#contact" class="service-cta">Get Help Now &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic EMG dentist procedure scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/eds-sg-blog-24-12-02-dentures-min.jpg?updated=1790021338" alt="EMG dentist St. Louis" loading="lazy">
+          <div class="body">
+            <h3>EMG Dentist</h3>
+            <p>Our EMG dentist network specializes in high-urgency cases, offering rapid intervention for pain, swelling, and injury-related dental emergencies.</p>
+            <a href="#contact" class="service-cta">Book Appointment &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic emergency tooth extraction scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/eds-holdingdenturesinhand-APR.jpg?updated=1790021338" alt="Emergency tooth extraction St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Emergency Tooth Extraction</h3>
+            <p>When a tooth cannot be saved, an emergency tooth extraction removes the source of pain and infection quickly, often the same day you call.</p>
+            <a href="#contact" class="service-cta">Call 866-489-5217 &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic emergency root canal procedure scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/eds-ms-dentureVSimplants.jpg?updated=1790021338" alt="Emergency root canal St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Emergency Root Canal</h3>
+            <p>An emergency root canal treats infection at the root of a tooth, relieving intense pain while giving you the best chance of saving the natural tooth.</p>
+            <a href="#contact" class="service-cta">Find a Dentist &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic same-day root canal scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/eds-mainsite-babydentalhygean.jpg?updated=1790021338" alt="Same-day root canal St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Same-Day Root Canal</h3>
+            <p>For severe infections, a same-day root canal can be arranged to stop pain and prevent the issue from spreading, without weeks of waiting.</p>
+            <a href="#contact" class="service-cta">Book Appointment &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic severe toothache relief scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/eds-home-blog-16-min.jpg?updated=1790021338" alt="Severe toothache relief St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Severe Toothache Relief</h3>
+            <p>Persistent, sharp, or throbbing pain gets fast attention with treatment aimed at both immediate severe toothache relief and long-term repair.</p>
+            <a href="#contact" class="service-cta">Get Help Now &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic urgent tooth care scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/denturepost-090225-cover.jpg?updated=1790021338" alt="Urgent tooth care St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Urgent Tooth Care</h3>
+            <p>Our urgent tooth care coordination gets you seen quickly, no matter the time of day, so small problems do not turn into bigger ones.</p>
+            <a href="#contact" class="service-cta">Call 866-489-5217 &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic same-day dentist appointment scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/waiting-room-dentist-coverJuly18-2025.jpg?updated=1790021338" alt="Same-day dentist appointment St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Same-Day Dentist Appointment</h3>
+            <p>A same-day dentist appointment means you are not stuck waiting through days of pain before a professional can take a look.</p>
+            <a href="#contact" class="service-cta">Book Appointment &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic teeth pain emergency scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/dental-diCOVER-07112025.jpg?updated=1790021338" alt="Teeth pain emergency St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Teeth Pain Emergency</h3>
+            <p>A sudden teeth pain emergency deserves an immediate response. Our line is staffed 24/7 to route you to relief as fast as possible.</p>
+            <a href="#contact" class="service-cta">Find a Dentist &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic 24hr dentist office scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/dentures-onwood-cover071125.jpg?updated=1790021338" alt="24hr dentist St. Louis" loading="lazy">
+          <div class="body">
+            <h3>24hr Dentist</h3>
+            <p>As a true 24hr dentist resource, we make sure St. Louis residents are never without an emergency dental option, no matter the hour.</p>
+            <a href="#contact" class="service-cta">Call 866-489-5217 &rarr;</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <!-- IMAGE PROMPT: Realistic dentist open on Saturday scene, professional environment, high detail, no text -->
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/blog/eds-sg-blog-26-04-21-sensitivity-to-infection.webp?updated=1790021338" alt="Dentist open on Saturday St. Louis" loading="lazy">
+          <div class="body">
+            <h3>Dentist Open on Saturday</h3>
+            <p>Weekend pain does not have to wait. A dentist open on Saturday is available through our network for urgent Saturday appointments.</p>
+            <a href="#contact" class="service-cta">Book Appointment &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="center-head"><h2>What Our Patients Say</h2></div>
+      <div class="grid grid-3">
+        <div class="testi">
+          <div class="stars"><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg></div>
+          <p>My tooth broke on a Saturday night and I was terrified I'd have to suffer until Monday. I called and had an appointment set up within the hour. The dentist was calm, kind, and explained everything before starting.</p>
+          <h4>Marcus B.</h4><span>St. Louis, MO</span>
+        </div>
+        <div class="testi">
+          <div class="stars"><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg></div>
+          <p>I was skeptical about calling a 24/7 line for a dental emergency, but the process was smooth from start to finish. They found me a same-day root canal appointment and the pain was gone by that evening.</p>
+          <h4>Renee T.</h4><span>South St. Louis, MO</span>
+        </div>
+        <div class="testi">
+          <div class="stars"><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg></div>
+          <p>My son knocked out a tooth playing outside and I had no idea what to do. The team stayed on the phone with me and got us seen within thirty minutes. Truly grateful for this service.</p>
+          <h4>Angela P.</h4><span>Clayton, MO</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="page">
+  <section class="hero">
+    <div class="container" style="grid-template-columns:1fr;">
+      <div>
+        <span class="badge" style="background:rgba(255,255,255,.15); color:#fff;">CONTACT US</span>
+        <h1>Reach Emergency Dentist 24/7 St. Louis Now</h1>
+        <p>Available every hour of every day for urgent tooth care across St. Louis, MO.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p style="margin-bottom:20px; max-width:900px;">Getting help for a dental emergency should never feel complicated, and at Emergency Dentist 24/7 St. Louis we have built our entire process around speed and simplicity. Located at 1500 Park Ave in St. Louis, MO 63104, our team is reachable by phone at 866-489-5217 any hour of the day or night, every day of the year. Whether you are dealing with a severe toothache, a knocked-out tooth, a lost filling, or any other urgent dental issue, calling us is the fastest way to get matched with same-day emergency dental care nearby.</p>
+      <p style="margin-bottom:20px; max-width:900px;">When you call, a real person will ask a few quick questions about your symptoms so we can direct you to the right level of care, whether that is an emergency tooth extraction, a same-day root canal, or a simple exam. We keep the process short because we know that when you are in pain, every extra minute matters. You can also fill out the contact form below and a member of our team will follow up promptly to help schedule your visit.</p>
+      <p style="margin-bottom:20px; max-width:900px;">We accept cash and credit card payment for emergency dental services, and our team will always walk you through what to expect before your appointment. Whether you need a dentist open on Saturday, a 24hr dentist for a late-night emergency, or general guidance about whether your situation qualifies as urgent tooth care, we are here to help you make an informed decision without any pressure.</p>
+      <p style="max-width:900px;">Our office is easy to find at 1500 Park Ave, St. Louis, MO 63104, just off the main corridor, with the map below for quick directions. Do not wait through unnecessary pain. Call 866-489-5217 now, or send us a message and we will respond as quickly as possible to get you the urgent tooth care you need.</p>
+
+      <div class="contact-grid" style="margin-top:40px;">
+        <div>
+          <div class="card">
+            <h3 style="margin-bottom:20px;">Send Us a Message</h3>
+            <div class="form-field"><label>Full Name</label><input type="text" placeholder="Your full name"></div>
+            <div class="form-field"><label>Phone</label><input type="tel" placeholder="Your phone number"></div>
+            <div class="form-field"><label>Email</label><input type="email" placeholder="you@example.com"></div>
+            <div class="form-field"><label>Describe Your Emergency</label><textarea rows="4" placeholder="Tell us what's going on"></textarea></div>
+            <button type="button" class="btn" style="width:100%; justify-content:center;">Request Appointment</button>
+          </div>
+        </div>
+        <div>
+          <div class="contact-item">
+            <span class="icon-badge"><svg viewBox="0 0 24 24"><path d="M12 2C8 2 5 5.5 5 9.5c0 5.5 7 12.5 7 12.5s7-7 7-12.5C19 5.5 16 2 12 2zm0 10a3 3 0 110-6 3 3 0 010 6z"/></svg></span>
+            <div><h4>Address</h4><p>1500 Park Ave, St. Louis, MO 63104</p></div>
+          </div>
+          <div class="contact-item">
+            <span class="icon-badge"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"/></svg></span>
+            <div><h4>Phone</h4><p><a href="tel:+18664895217">866-489-5217</a></p></div>
+          </div>
+          <div class="contact-item">
+            <span class="icon-badge"><svg viewBox="0 0 24 24"><path d="M12 8v4l3 2m6-2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></span>
+            <div><h4>Hours</h4><p>Open 24 hours a day, 7 days a week</p></div>
+          </div>
+          <div class="contact-item">
+            <span class="icon-badge"><svg viewBox="0 0 24 24"><path d="M3 6h18v12H3z M3 6l9 7 9-7"/></svg></span>
+            <div><h4>Website</h4><p><a href="https://www.emergencydentalservice.com" target="_blank" rel="noopener">emergencydentalservice.com</a></p></div>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3117.4496313510986!2d-90.2089293!3d38.6155361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b3de466e6a83%3A0x71364f494bd5c762!2sEmergency%20Dentist%2024%2F7%20St.%20Louis!5e0!3m2!1sen!2s!4v1790167702974!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">
+          <img src="https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/eds-logo.webp?updated=1790021338" alt="Emergency Dentist 24/7 St. Louis logo">
+          <span style="color:#fff; font-weight:700;">Emergency Dentist 24/7 St. Louis</span>
+        </div>
+        <p style="max-width:340px; color:#b9cddc;">Around-the-clock emergency dental service for St. Louis, MO. Same-day emergency dentist appointments, root canals, extractions and severe toothache relief, every hour of every day.</p>
+        <div class="social-row">
+          <a href="https://www.facebook.com/dentalemergencyservice/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M13 22v-9h3l1-4h-4V6.5C13 5.4 13.5 5 15 5h1V1.2C15.6 1.1 14.2 1 13 1c-3 0-5 1.8-5 5.1V9H5v4h3v9h5z"/></svg></a>
+          <a href="https://twitter.com/tooth_emergency" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M22 5.9c-.7.3-1.5.6-2.3.7.8-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1-1.5-1.6-4-1.7-5.6-.2-1 1-1.4 2.4-1.1 3.7-3.1-.2-5.8-1.6-7.6-3.9-.3.5-.5 1.1-.5 1.8 0 1.2.6 2.3 1.6 2.9-.6 0-1.2-.2-1.7-.4 0 1.7 1.2 3.2 2.9 3.5-.5.1-1.1.2-1.6.1.5 1.4 1.8 2.5 3.4 2.5-1.3 1-2.9 1.5-4.5 1.5H2c1.5 1 3.4 1.6 5.3 1.6 6.4 0 9.9-5.3 9.9-9.9v-.5c.7-.5 1.3-1.1 1.8-1.8z"/></svg></a>
+          <a href="https://www.emergencydentalservice.com/resourcecenter" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4 4a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm3 12H5v-2h2v2zm0-4H5v-2h2v2zm0-4H5V6h2v2zm10 8H9v-2h8v2zm0-4H9v-2h8v2zm0-4H9V6h8v2z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Get in Touch</h4>
+        <a href="#">1500 Park Ave, St. Louis, MO 63104</a>
+        <a href="tel:+18664895217">866-489-5217</a>
+        <a href="https://www.emergencydentalservice.com" target="_blank" rel="noopener">emergencydentalservice.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Emergency Dentist 24/7 St. Louis. All rights reserved.</div>
+  </div>
+</footer>
+
+<a href="tel:+18664895217" class="float-call" aria-label="Call now">
+  <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"/></svg>
+</a>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Emergency Dentist 24/7 St. Louis",
+  "image": "https://uploads.prod01.oregon.platform-os.com/instances/1768/assets/images/eds-logo.webp?updated=1790021338",
+  "telephone": "+18664895217",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1500 Park Ave",
+    "addressLocality": "St. Louis",
+    "addressRegion": "MO",
+    "postalCode": "63104",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 38.6155361,
+    "longitude": -90.2089293
+  },
+  "url": "https://www.emergencydentalservice.com",
+  "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
+  "sameAs": [
+    "https://www.facebook.com/dentalemergencyservice/",
+    "https://twitter.com/tooth_emergency"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dr. Emergency Dental Care Team",
+  "worksFor": {
+    "@type": "Dentist",
+    "name": "Emergency Dentist 24/7 St. Louis"
+  },
+  "jobTitle": "Emergency Dentist"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {"@type": "Service", "position": 1, "name": "Emergency Dental Service", "provider": {"@type": "Dentist", "name": "Emergency Dentist 24/7 St. Louis"}},
+    {"@type": "Service", "position": 2, "name": "Emergency Root Canal", "provider": {"@type": "Dentist", "name": "Emergency Dentist 24/7 St. Louis"}},
+    {"@type": "Service", "position": 3, "name": "Emergency Tooth Extraction", "provider": {"@type": "Dentist", "name": "Emergency Dentist 24/7 St. Louis"}},
+    {"@type": "Service", "position": 4, "name": "Severe Toothache Relief", "provider": {"@type": "Dentist", "name": "Emergency Dentist 24/7 St. Louis"}},
+    {"@type": "Service", "position": 5, "name": "Same-Day Dentist Appointment", "provider": {"@type": "Dentist", "name": "Emergency Dentist 24/7 St. Louis"}}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Do you really offer emergency dental care 24 hours a day?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Emergency Dentist 24/7 St. Louis operates around the clock, including nights, weekends and holidays."}},
+    {"@type": "Question", "name": "What counts as a dental emergency?", "acceptedAnswer": {"@type": "Answer", "text": "Severe toothache, a knocked-out or broken tooth, uncontrolled bleeding, facial swelling, or a lost crown or filling that is causing pain."}},
+    {"@type": "Question", "name": "Can I get a same-day root canal or extraction?", "acceptedAnswer": {"@type": "Answer", "text": "In most cases, yes, depending on severity and dentist availability nearby."}},
+    {"@type": "Question", "name": "Is there a dentist open on Saturday and Sunday?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, our network includes a dentist open on Saturday and Sunday."}},
+    {"@type": "Question", "name": "What payment methods do you accept?", "acceptedAnswer": {"@type": "Answer", "text": "We accept cash and credit card payment for emergency dental services."}}
+  ]
+}
+</script>
+
+<script>
+function showPage(id){
+  document.querySelectorAll('.page').forEach(function(p){ p.classList.remove('active'); });
+  var target = document.getElementById(id) || document.getElementById('home');
+  target.classList.add('active');
+  document.querySelectorAll('.nav-link').forEach(function(a){
+    a.classList.toggle('active', a.dataset.page === id);
+  });
+  window.scrollTo(0,0);
+}
+function routeFromHash(){
+  var id = (location.hash || '#home').replace('#','');
+  if(!document.getElementById(id)) id = 'home';
+  showPage(id);
+}
+window.addEventListener('hashchange', routeFromHash);
+window.addEventListener('DOMContentLoaded', routeFromHash);
+</script>
+
+</body>
+</html>
